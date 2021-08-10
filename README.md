@@ -27,4 +27,4 @@ To update scopes:
 Contributions are welcome. You can add new functions, new api's for example and other interesting applications! :+1:
 
 # Contact Information
-- [Wim den Herder official page](www.wimdenherder.com)
+- [Wim den Herder official page](https://www.wimdenherder.com)
