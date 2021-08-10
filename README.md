@@ -2,7 +2,8 @@
 # Description
 This piece of Google Apps Script code helps you to: 
 - create Google OAuth Tokens
-- connect to (external) Google Api's.  
+- set scopes (see manifest file)
+- connect to (external) Google Api's from within Google Apps Script 
  
 Many of the Google APIs are already available in Google Apps Script, so first have a look here: 
 - [Apps Script](https://developers.google.com/apps-script)
@@ -19,7 +20,7 @@ and set the scopes in the manifest file.
 - the OAuthToken will now have the same scopes
 
 # Application
-* You could run the script that create a token in account1, then send the token to the web app from account2 that receives it and connects to google api. 
+* You could run the script that create a token in account1, then send the token to the web app from account2 that receives it and connects to google api and is authorized to do things on behalve of account1. 
 
 # Contributions
 Contributions are welcome. You can add new functions, new api's for example and other interesting applications! :+1:
