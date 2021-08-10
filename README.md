@@ -1,17 +1,17 @@
 
 # Description
 This piece of Google Apps Script code helps you to: 
-- create Google OAuth Tokens
+- create Google OAuthTokens
 - set scopes (see manifest file)
-- connect to (external) Google Api's from within Google Apps Script 
+- connect to Google Api's from within Google Apps Script with this OAuthToken
  
-Many of the Google APIs are already available in Google Apps Script, so first have a look here: 
+Many of the Google APIs are already available in Google Apps Script, have a look here: 
 - [Apps Script](https://developers.google.com/apps-script)
 - [Advanced Services](https://developers.google.com/apps-script/guides/services/advanced)  
  
-But if you want to use google auth tokens, apps script can also create them for you. Just use 
+But if you want to use google auth tokens, apps script can create them for you. Just use 
 ```ScriptApp.getOAuthToken()```
-and set the scopes in the manifest file. 
+and set the right scopes in the manifest file. 
 
 # Usage: update scopes of OAuthToken
 - Menu View -> Show Manifest File
